@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 146836576, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
+  m_Name: ProBuilderPreferences
+  m_EditorClassIdentifier: 
+  m_Bool_keys:
+  - pb_SmoothingGroupEditor::m_ShowPreview
+  - pb_SmoothingGroupEditor::m_PreviewDither
+  m_Int_keys:
+  - pbDefaultEditLevel
+  - pbDefaultSelectionMode
+  - pb_GIWorkflowMode
+  - pbHandleAlignment
+  m_Float_keys:
+  - pbEditorScroll.x
+  - pbEditorScroll.y
+  - pbWeldDistance
+  - pb_SmoothingGroupEditor::m_PreviewOpacity
+  m_String_keys:
+  - pbVertexColorPrefs4
+  - pbVertexColorPrefs3
+  - pbVertexColorPrefs2
+  - pbVertexColorPrefs1
+  - pbVertexColorPrefs0
+  m_Color_keys: []
+  m_Material_keys: []
+  m_Bool_values: 0100
+  m_Int_values: 00000000000000000000000000000000
+  m_Float_values:
+  - 0
+  - 0
+  - 1
+  - 0.001
+  m_String_values:
+  - RGBA(0.632, 0.437, 0.191, 1.000)
+  - RGBA(0.232, 0.500, 0.210, 1.000)
+  - RGBA(0.086, 0.301, 0.088, 1.000)
+  - RGBA(0.691, 0.993, 0.000, 1.000)
+  - RGBA(0.382, 0.272, 0.155, 1.000)
+  m_Color_values: []
+  m_Material_values: []
