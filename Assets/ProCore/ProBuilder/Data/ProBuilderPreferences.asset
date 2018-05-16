@@ -19,6 +19,7 @@ MonoBehaviour:
   - pbDefaultSelectionMode
   - pb_GIWorkflowMode
   - pbHandleAlignment
+  - pbVertexColorTool
   m_Float_keys:
   - pbEditorScroll.x
   - pbEditorScroll.y
@@ -30,20 +31,24 @@ MonoBehaviour:
   - pbVertexColorPrefs2
   - pbVertexColorPrefs1
   - pbVertexColorPrefs0
+  - pbVertexColorPrefs9
+  - pbVertexColorPrefs8
   m_Color_keys: []
   m_Material_keys: []
   m_Bool_values: 0100
-  m_Int_values: 00000000000000000000000000000000
+  m_Int_values: 0000000000000000000000000000000001000000
   m_Float_values:
   - 0
-  - 0
+  - 40
   - 1
   - 0.001
   m_String_values:
-  - RGBA(0.632, 0.437, 0.191, 1.000)
+  - RGBA(0.453, 0.699, 0.216, 1.000)
   - RGBA(0.232, 0.500, 0.210, 1.000)
   - RGBA(0.086, 0.301, 0.088, 1.000)
-  - RGBA(0.691, 0.993, 0.000, 1.000)
-  - RGBA(0.382, 0.272, 0.155, 1.000)
+  - RGBA(0.635, 0.882, 0.435, 1.000)
+  - RGBA(0.434, 0.287, 0.131, 1.000)
+  - RGBA(0.794, 0.614, 0.228, 1.000)
+  - RGBA(0.301, 0.202, 0.095, 1.000)
   m_Color_values: []
   m_Material_values: []
