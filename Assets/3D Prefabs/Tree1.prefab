@@ -39,6 +39,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4520511081571352}
+  - component: {fileID: 65046778065109748}
+  - component: {fileID: 65184084935836684}
   m_Layer: 0
   m_Name: Tree1
   m_TagString: Untagged
@@ -99,7 +101,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1384747769784374}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.46073818, y: -0.3106988, z: -1.4414191}
+  m_LocalPosition: {x: 59.04867, y: 7.5043206, z: 7.864464}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4186632787719072}
@@ -217,6 +219,30 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
+--- !u!65 &65046778065109748
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1384747769784374}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.17, y: 4.98, z: 1}
+  m_Center: {x: -0.98, y: 0.46, z: -1.46}
+--- !u!65 &65184084935836684
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1384747769784374}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.21, y: 3.62, z: 3.44}
+  m_Center: {x: -0.75, y: 4.11, z: -1.45}
 --- !u!114 &114279538317673176
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1994,120 +2020,8 @@ MonoBehaviour:
   asset_guid: 
   dontDestroyMeshOnDelete: 0
   m_selectedFaces: 
-  m_SelectedEdges:
-  - x: 0
-    y: 1
-  - x: 2
-    y: 0
-  - x: 1
-    y: 3
-  - x: 3
-    y: 2
-  - x: 4
-    y: 5
-  - x: 6
-    y: 4
-  - x: 5
-    y: 7
-  - x: 7
-    y: 6
-  - x: 8
-    y: 9
-  - x: 10
-    y: 8
-  - x: 9
-    y: 11
-  - x: 11
-    y: 10
-  - x: 12
-    y: 13
-  - x: 14
-    y: 12
-  - x: 13
-    y: 15
-  - x: 15
-    y: 14
-  - x: 16
-    y: 17
-  - x: 18
-    y: 16
-  - x: 17
-    y: 19
-  - x: 19
-    y: 18
-  - x: 20
-    y: 21
-  - x: 22
-    y: 20
-  - x: 21
-    y: 23
-  - x: 23
-    y: 22
-  - x: 24
-    y: 25
-  - x: 26
-    y: 24
-  - x: 25
-    y: 27
-  - x: 27
-    y: 26
-  - x: 28
-    y: 29
-  - x: 30
-    y: 28
-  - x: 29
-    y: 31
-  - x: 31
-    y: 30
-  - x: 32
-    y: 33
-  - x: 34
-    y: 32
-  - x: 33
-    y: 35
-  - x: 35
-    y: 34
-  - x: 36
-    y: 37
-  - x: 38
-    y: 36
-  - x: 37
-    y: 39
-  - x: 39
-    y: 38
-  - x: 40
-    y: 41
-  - x: 42
-    y: 40
-  - x: 41
-    y: 43
-  - x: 43
-    y: 42
-  - x: 44
-    y: 45
-  - x: 46
-    y: 44
-  - x: 45
-    y: 47
-  - x: 47
-    y: 46
-  - x: 48
-    y: 49
-  - x: 50
-    y: 48
-  - x: 49
-    y: 51
-  - x: 51
-    y: 50
-  - x: 52
-    y: 53
-  - x: 54
-    y: 52
-  - x: 53
-    y: 55
-  - x: 55
-    y: 54
-  m_selectedTriangles: 0000000001000000020000000000000001000000030000000300000002000000040000000500000006000000040000000500000007000000070000000600000008000000090000000a00000008000000090000000b0000000b0000000a0000000c0000000d0000000e0000000c0000000d0000000f0000000f0000000e0000001000000011000000120000001000000011000000130000001300000012000000140000001500000016000000140000001500000017000000170000001600000018000000190000001a00000018000000190000001b0000001b0000001a0000001c0000001d0000001e0000001c0000001d0000001f0000001f0000001e0000002000000021000000220000002000000021000000230000002300000022000000240000002500000026000000240000002500000027000000270000002600000028000000290000002a00000028000000290000002b0000002b0000002a0000002c0000002d0000002e0000002c0000002d0000002f0000002f0000002e00000030000000310000003200000030000000310000003300000033000000320000003400000035000000360000003400000035000000370000003700000036000000
+  m_SelectedEdges: []
+  m_selectedTriangles: 
 --- !u!114 &114486197724207286
 MonoBehaviour:
   m_ObjectHideFlags: 1

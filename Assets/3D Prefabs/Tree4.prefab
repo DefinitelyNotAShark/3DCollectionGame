@@ -59,6 +59,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4810868925789058}
+  - component: {fileID: 65763430694540710}
+  - component: {fileID: 65847818132358336}
   m_Layer: 0
   m_Name: Tree4
   m_TagString: Untagged
@@ -133,7 +135,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1721255449763340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3319986, y: 17.928692, z: -2.389989}
+  m_LocalPosition: {x: 27.717142, y: 12.419108, z: 1.8410854}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4739500424341844}
@@ -306,6 +308,30 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
+--- !u!65 &65763430694540710
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1721255449763340}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: -5.66, y: 4.97, z: 5.93}
+  m_Center: {x: 1.53, y: 1.98, z: -0.68}
+--- !u!65 &65847818132358336
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1721255449763340}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.78, y: 4.33, z: 1.76}
+  m_Center: {x: 0.65, y: -2.01, z: -1.09}
 --- !u!114 &114104812116099122
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1266,7 +1292,7 @@ MonoBehaviour:
   dontDestroyMeshOnDelete: 0
   m_selectedFaces: 
   m_SelectedEdges: []
-  m_selectedTriangles: 25000000
+  m_selectedTriangles: 
 --- !u!114 &114266045513360468
 MonoBehaviour:
   m_ObjectHideFlags: 1
