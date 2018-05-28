@@ -23,10 +23,10 @@ GameObject:
   - component: {fileID: 23665682983159474}
   - component: {fileID: 33656104674042670}
   - component: {fileID: 114322802139030964}
-  - component: {fileID: 64904113615874340}
+  - component: {fileID: 64512759728225728}
   m_Layer: 0
   m_Name: Cone
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -43,10 +43,10 @@ GameObject:
   - component: {fileID: 23669139464112258}
   - component: {fileID: 33851005467916886}
   - component: {fileID: 114133901552216976}
-  - component: {fileID: 64289792612587588}
+  - component: {fileID: 64838221962614944}
   m_Layer: 0
   m_Name: Trunk
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -79,11 +79,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4137884108319312}
-  - component: {fileID: 65582371809797686}
-  - component: {fileID: 65634957378145702}
+  - component: {fileID: 114876414793434482}
   m_Layer: 0
   m_Name: Tree2
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,7 +108,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1869992498517684}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 65.25963, y: 11.99486, z: 0.94014454}
+  m_LocalPosition: {x: 76.58358, y: 13.110626, z: 30.962715}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4628985485387006}
@@ -266,12 +265,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1233222650946152}
   m_Mesh: {fileID: 0}
---- !u!64 &64289792612587588
+--- !u!64 &64512759728225728
 MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1233222650946152}
+  m_GameObject: {fileID: 1210419124312802}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -294,12 +293,12 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
---- !u!64 &64904113615874340
+--- !u!64 &64838221962614944
 MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1210419124312802}
+  m_GameObject: {fileID: 1233222650946152}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -308,30 +307,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
---- !u!65 &65582371809797686
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1869992498517684}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.04, y: 3.98, z: 1.73}
-  m_Center: {x: 0, y: -3.62, z: 0.05}
---- !u!65 &65634957378145702
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1869992498517684}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5.22, y: 4.3, z: 4.9}
-  m_Center: {x: 0.23, y: 1.43, z: -0.07}
 --- !u!114 &114091135014883730
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2991,6 +2966,17 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
+--- !u!114 &114876414793434482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1869992498517684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b72b327015368a499ef8923877429db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114923371481385380
 MonoBehaviour:
   m_ObjectHideFlags: 1
