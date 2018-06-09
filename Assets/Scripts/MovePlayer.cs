@@ -15,6 +15,8 @@ public class MovePlayer : MonoBehaviour
     private float turnAxisValue;
     private float jumpAxisValue;
 
+    private bool controllerIsConnected;
+
     [SerializeField]
     private float speed = 10;
 
@@ -29,9 +31,30 @@ public class MovePlayer : MonoBehaviour
 
     private void Start()
     {
-        movementAxisName = "Vertical";
-        turnAxisName = "Horizontal";
-        jumpAxisName = "Jump";
+        string[] names = Input.GetJoystickNames();
+        for (int x = 0; x < names.Length; x++)
+        {
+            Debug.Log(names.Length.ToString());
+            if (names[x].Length == 33)
+            {
+                Debug.Log("XBOX ONE CONTROLLER IS CONNECTED");
+                controllerIsConnected = true;
+            }
+        }
+
+        if (controllerIsConnected == true)
+        {
+            movementAxisName = "ControllerVertical";
+            turnAxisName = "ControllerHorizontal";
+            jumpAxisName = "ControllerJump";
+        }
+        else
+        {
+            movementAxisName = "Vertical";
+            turnAxisName = "Horizontal";
+            jumpAxisName = "Jump";
+        }
+
         rigidbody = GetComponent<Rigidbody>();
     }
 
