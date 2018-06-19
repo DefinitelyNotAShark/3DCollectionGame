@@ -26,6 +26,9 @@ public class MovePlayer : MonoBehaviour
     [SerializeField]
     private float jumpHeight = 1;
 
+    [SerializeField]
+    private Animator bunnyAnimator;
+
     private Vector3 position;
     private Rigidbody rigidbody;
 
@@ -67,6 +70,8 @@ public class MovePlayer : MonoBehaviour
             rigidbody.AddForce(Vector3.up * jumpHeight, ForceMode.Impulse);
             isOnGround = false;
         }
+
+        UpdateGroundToAnimator();
     }
 
     private void FixedUpdate()
@@ -79,7 +84,7 @@ public class MovePlayer : MonoBehaviour
     {
         movementAxisValue = Input.GetAxis(movementAxisName);//stores my input for each update
         turnAxisValue = Input.GetAxis(turnAxisName);
-        jumpAxisValue = Input.GetAxis(jumpAxisName);
+        jumpAxisValue = Input.GetAxis(jumpAxisName);     
     }
 
     void Move()
@@ -98,5 +103,19 @@ public class MovePlayer : MonoBehaviour
     private void OnCollisionStay(Collision collision)
     {
         isOnGround = true;
+    }
+
+    void UpdateGroundToAnimator()
+    {
+        if (isOnGround)
+        {
+            bunnyAnimator.SetBool("Grounded", true);
+        }
+        else
+        {
+            bunnyAnimator.SetBool("Grounded", false);
+        }
+        //Delete Later
+        Debug.Log("Grounded: " + bunnyAnimator.GetBool("Grounded").ToString() + "IsOnGround: " + isOnGround.ToString());
     }
 }
