@@ -150,7 +150,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4079389614474646, guid: 9b8ea42cf807cc04daeb18e8d068156d, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 64366758880422424, guid: 9b8ea42cf807cc04daeb18e8d068156d,
         type: 2}
@@ -5112,7 +5112,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4963729521710124, guid: 69a61aeb6d25cc045ba0a110225394a8, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 64485298210643066, guid: 69a61aeb6d25cc045ba0a110225394a8,
         type: 2}
@@ -5751,7 +5751,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!43 &1425390568
 Mesh:
