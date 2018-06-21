@@ -7,9 +7,6 @@ using UnityEngine.SceneManagement;
 public class ColorPickerButtonManager : MonoBehaviour {
 
     [SerializeField]
-    private Color bunnyColor;
-
-    [SerializeField]
     private Text buttonText;
 
     [SerializeField]
@@ -20,7 +17,8 @@ public class ColorPickerButtonManager : MonoBehaviour {
     private Color yellowColor;
     private Color orangeColor;
     private Color grayColor;
-    private Color realBunnyColor;
+
+    public static Color realBunnyColor;
 
     private bool buttonWasClicked;
 
@@ -87,8 +85,7 @@ public class ColorPickerButtonManager : MonoBehaviour {
         else
         {
             realBunnyColor = bunnyPicture.color;//save the color that was picked
-            Debug.Log("This is going to go to a new scene!");
-            SceneManager.LoadScene("TestScene");
+            SceneManager.LoadScene("BunnyColorTestScene");
         }
     }
 }
