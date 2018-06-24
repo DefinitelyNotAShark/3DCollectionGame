@@ -4,7 +4,7 @@ using UnityEngine;
 
 public interface Iinteractable
 {
-    void HighlightObject();
-    void UnHighlightObject();
+    void HighlightObjectText();
+    void StopText();
     void Interact();
 }

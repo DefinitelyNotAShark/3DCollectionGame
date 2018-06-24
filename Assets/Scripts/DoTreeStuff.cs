@@ -1,36 +1,39 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DoTreeStuff : MonoBehaviour, Iinteractable
 {
-    Color startColor;
+    private Color startColor;
 
-	void Update ()
-    {
-	}
+    [SerializeField]
+    private Color highlightColor;
 
-    public void HighlightObject()//only public because has to be for interface
+
+    private Text interactableText;
+
+    private void Awake()
     {
-        foreach (Transform child in transform)//get the objects in the tree
-        {
-            if (child.GetComponent<MeshRenderer>() != null)//if there is a renderer...
-            {
-                startColor = child.GetComponent<MeshRenderer>().material.color;//get the color it started with
-                child.GetComponent<MeshRenderer>().material.color = Color.blue;//change the color to the material color
-            }
-        }
+        interactableText = GameObject.FindGameObjectWithTag("Int").GetComponent<Text>();
     }
 
-    public void UnHighlightObject()
+    //private void Start()
+    //{
+    //    interactableText.gameObject.SetActive(false);
+    //}
+
+    public void HighlightObjectText()//only public because has to be for interface
     {
-        foreach (Transform child in transform)//get the objects in the tree
-        {
-            if (child.GetComponent<MeshRenderer>() != null)//if there is a renderer...
-            {
-                child.GetComponent<MeshRenderer>().material.color = startColor;//change the color to the material color
-            }
-        }
+        interactableText.gameObject.SetActive(true);
+        interactableText.text = "cut down tree";
+    }
+
+    public void StopText()
+    {
+        Debug.Log("Stop text was called");
+        interactableText.gameObject.SetActive(false);
+        interactableText.text = "";
     }
 
     public void Interact()

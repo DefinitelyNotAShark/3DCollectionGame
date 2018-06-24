@@ -85,7 +85,7 @@ public class ColorPickerButtonManager : MonoBehaviour {
         else
         {
             realBunnyColor = bunnyPicture.color;//save the color that was picked
-            SceneManager.LoadScene("BunnyColorTestScene");
+            SceneManager.LoadScene("LoadingScene");//load scene while real scene is being prepared
         }
     }
 }

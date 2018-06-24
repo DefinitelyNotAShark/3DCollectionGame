@@ -2,11 +2,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CastPlayer : MonoBehaviour
 {// this is my raycast. It's gonna detect items that the player is facing to help interact.
     [SerializeField]
     private float distance = 2;
+
+    [SerializeField]
+    private Text interactText;
 
     private Transform cubeCollisionTransform;
     private Iinteractable interactableInstance;
@@ -34,14 +38,18 @@ public class CastPlayer : MonoBehaviour
 
     private void CheckForCollide()
     {
-        if(Physics.Raycast(playerSight, out hit, distance))//this occurs if the ray hits something...
+        if (Physics.Raycast(playerSight, out hit, distance))//this occurs if the ray hits something...
         {
             interactableInstance = hit.collider.gameObject.transform.parent.GetComponent<Iinteractable>();
 
             if (interactableInstance != null)
             {
-                interactableInstance.HighlightObject();
+                interactableInstance.HighlightObjectText();
             }
+        }
+        else
+        {
+            interactText.gameObject.SetActive(false);
         }
     }
 }
