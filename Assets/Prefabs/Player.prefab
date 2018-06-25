@@ -12016,6 +12016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distance: 4
   interactText: {fileID: 0}
+  interactButtonString: interact
 --- !u!114 &114848400096538184
 MonoBehaviour:
   m_ObjectHideFlags: 1

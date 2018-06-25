@@ -12,12 +12,18 @@ public class CastPlayer : MonoBehaviour
     [SerializeField]
     private Text interactText;
 
+    [SerializeField]
+    private string interactButtonString;
+
     private Transform cubeCollisionTransform;
     private Iinteractable interactableInstance;
     private Vector3 center;
     private BoxCollider collider;
     RaycastHit hit;
     Ray playerSight;
+    private float inputButtonFloat;
+    
+   
 
     private void Start()
     {
@@ -29,6 +35,12 @@ public class CastPlayer : MonoBehaviour
         center = collider.bounds.center;
         UpdatePlayerSight();
         CheckForCollide();
+        UpdateButtonInput();
+    }
+
+    private void UpdateButtonInput()
+    {
+        inputButtonFloat = Input.GetAxis(interactButtonString);
     }
 
     private void UpdatePlayerSight()
@@ -45,6 +57,11 @@ public class CastPlayer : MonoBehaviour
             if (interactableInstance != null)
             {
                 interactableInstance.HighlightObjectText();
+
+                if(inputButtonFloat > 0)//checks to see if you push the button
+                {
+                    interactableInstance.Interact();
+                }
             }
         }
         else

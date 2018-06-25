@@ -5,12 +5,6 @@ using UnityEngine.UI;
 
 public class DoTreeStuff : MonoBehaviour, Iinteractable
 {
-    private Color startColor;
-
-    [SerializeField]
-    private Color highlightColor;
-
-
     private Text interactableText;
 
     private void Awake()
@@ -18,10 +12,10 @@ public class DoTreeStuff : MonoBehaviour, Iinteractable
         interactableText = GameObject.FindGameObjectWithTag("Int").GetComponent<Text>();
     }
 
-    //private void Start()
-    //{
-    //    interactableText.gameObject.SetActive(false);
-    //}
+    private void Start()//this seems to work now. 
+    {
+        interactableText.gameObject.SetActive(false);
+    }
 
     public void HighlightObjectText()//only public because has to be for interface
     {
@@ -31,13 +25,19 @@ public class DoTreeStuff : MonoBehaviour, Iinteractable
 
     public void StopText()
     {
-        Debug.Log("Stop text was called");
         interactableText.gameObject.SetActive(false);
         interactableText.text = "";
     }
 
     public void Interact()
     {
-
+        //play tree cutting down sound.
+        //replace tree with spinning icon
+        //make icon collectable
+        //make collectable icon increase wood value in UI inventory
+        this.gameObject.SetActive(false);
+        
+        //REMEMBER wait until sound is done to destroy. Probably want to make it invisible first!!!
+       // Destroy(gameObject);//do this last so the script doesn't cut out early
     }
 }
