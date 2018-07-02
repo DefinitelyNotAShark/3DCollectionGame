@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Tree
   - Int
+  - TreeIcon
+  - TreeParent
   layers:
   - Default
   - TransparentFX

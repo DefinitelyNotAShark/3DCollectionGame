@@ -19,7 +19,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4598061789024480}
-  - component: {fileID: 114411413868174596}
   m_Layer: 0
   m_Name: Tree3 (2)
   m_TagString: Tree
@@ -45,7 +44,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1102681389232630
 GameObject:
@@ -65,7 +64,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1107156049404028
 GameObject:
@@ -85,7 +84,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1107669241783562
 GameObject:
@@ -105,7 +104,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1108763181574340
 GameObject:
@@ -125,7 +124,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1119991079368246
 GameObject:
@@ -145,7 +144,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1133924338175658
 GameObject:
@@ -165,7 +164,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1139048724874094
 GameObject:
@@ -185,7 +184,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1143927028015596
 GameObject:
@@ -205,7 +204,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1166729449681140
 GameObject:
@@ -215,7 +214,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4280367847344750}
-  - component: {fileID: 114150416511307106}
   m_Layer: 0
   m_Name: Tree2 (2)
   m_TagString: Tree
@@ -241,7 +239,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1240206684034984
 GameObject:
@@ -251,7 +249,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4908515664631600}
-  - component: {fileID: 114013143295725008}
   m_Layer: 0
   m_Name: Tree4 (2)
   m_TagString: Tree
@@ -267,7 +264,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4268222141155916}
-  - component: {fileID: 114247553597682640}
   m_Layer: 0
   m_Name: Tree3
   m_TagString: Tree
@@ -293,7 +289,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1341290333808360
 GameObject:
@@ -313,7 +309,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1343828968320002
 GameObject:
@@ -323,7 +319,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4598469413726036}
-  - component: {fileID: 114728938832066038}
   m_Layer: 0
   m_Name: Tree1
   m_TagString: Tree
@@ -339,7 +334,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4626153288562062}
-  - component: {fileID: 114836909639942036}
   m_Layer: 0
   m_Name: Tree3 (1)
   m_TagString: Tree
@@ -365,7 +359,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1430295448173778
 GameObject:
@@ -375,7 +369,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4244850514022668}
-  - component: {fileID: 114184438676109334}
   m_Layer: 0
   m_Name: Tree2
   m_TagString: Tree
@@ -401,7 +394,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1455345591472768
 GameObject:
@@ -411,7 +404,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4591238960108302}
-  - component: {fileID: 114238652991146784}
   m_Layer: 0
   m_Name: Tree1
   m_TagString: Tree
@@ -437,7 +429,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1468563047227282
 GameObject:
@@ -457,7 +449,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1518052158367414
 GameObject:
@@ -477,7 +469,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1547760347650096
 GameObject:
@@ -497,7 +489,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1570342777828814
 GameObject:
@@ -517,7 +509,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1592808907830624
 GameObject:
@@ -527,7 +519,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4576815432717536}
-  - component: {fileID: 114309529666095132}
   m_Layer: 0
   m_Name: Tree4 (1)
   m_TagString: Tree
@@ -543,7 +534,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4963729521710124}
-  - component: {fileID: 114168854394478688}
+  - component: {fileID: 114016481822586736}
   m_Layer: 0
   m_Name: TestScene3
   m_TagString: Untagged
@@ -559,7 +550,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4965152974849032}
-  - component: {fileID: 114712025150177622}
   m_Layer: 0
   m_Name: Tree4
   m_TagString: Tree
@@ -585,7 +575,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1682940892121912
 GameObject:
@@ -605,7 +595,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1711576095824008
 GameObject:
@@ -625,7 +615,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1760163517459004
 GameObject:
@@ -645,7 +635,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1767644123680682
 GameObject:
@@ -655,7 +645,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4060967752382474}
-  - component: {fileID: 114968248374548184}
   m_Layer: 0
   m_Name: Tree1 (1)
   m_TagString: Tree
@@ -681,7 +670,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1813663928438152
 GameObject:
@@ -701,7 +690,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1922110704557392
 GameObject:
@@ -721,7 +710,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1942140039448152
 GameObject:
@@ -741,7 +730,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1946337644856934
 GameObject:
@@ -751,7 +740,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4043999515620782}
-  - component: {fileID: 114940369658549992}
   m_Layer: 0
   m_Name: Tree2 (1)
   m_TagString: Tree
@@ -777,7 +765,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1972594345216584
 GameObject:
@@ -797,7 +785,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1977946338681100
 GameObject:
@@ -817,7 +805,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!1 &1979939462520548
 GameObject:
@@ -837,7 +825,7 @@ GameObject:
   m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!4 &4015252916921060
 Transform:
@@ -3195,17 +3183,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
---- !u!114 &114013143295725008
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1240206684034984}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b72b327015368a499ef8923877429db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114014594740469686
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3218,6 +3195,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
+--- !u!114 &114016481822586736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1657749272359842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d603e1ad8aa943a4390acaaa8bdb6751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treeIconPrefab: {fileID: 0}
 --- !u!114 &114061697227022212
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7830,17 +7819,6 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
---- !u!114 &114150416511307106
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1166729449681140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b72b327015368a499ef8923877429db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114163839674663314
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7853,17 +7831,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
---- !u!114 &114168854394478688
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1657749272359842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b72b327015368a499ef8923877429db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114175867995875208
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8621,17 +8588,6 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
---- !u!114 &114184438676109334
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1430295448173778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b72b327015368a499ef8923877429db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114222174124101450
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9689,17 +9645,6 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
---- !u!114 &114238652991146784
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1455345591472768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b72b327015368a499ef8923877429db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114247542707976856
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9712,17 +9657,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
---- !u!114 &114247553597682640
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1252070258087018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b72b327015368a499ef8923877429db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114270944386348660
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12701,17 +12635,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
---- !u!114 &114309529666095132
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1592808907830624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b72b327015368a499ef8923877429db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114316170802509080
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14672,17 +14595,6 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
---- !u!114 &114411413868174596
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1056810912969494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b72b327015368a499ef8923877429db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114450336567606064
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -22251,7 +22163,7 @@ MonoBehaviour:
   dontDestroyMeshOnDelete: 0
   m_selectedFaces: 
   m_SelectedEdges: []
-  m_selectedTriangles: 
+  m_selectedTriangles: 00000000
 --- !u!114 &114670674559805210
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -23238,17 +23150,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
---- !u!114 &114712025150177622
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1660603632179840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b72b327015368a499ef8923877429db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114714892557038990
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -23981,17 +23882,6 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
---- !u!114 &114728938832066038
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343828968320002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b72b327015368a499ef8923877429db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114773253197104414
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -26742,17 +26632,6 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
---- !u!114 &114836909639942036
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1411791472004426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b72b327015368a499ef8923877429db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114869263602804148
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28339,17 +28218,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
---- !u!114 &114940369658549992
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1946337644856934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b72b327015368a499ef8923877429db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114948730182734184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -29323,17 +29191,6 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
---- !u!114 &114968248374548184
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1767644123680682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b72b327015368a499ef8923877429db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114974102251152862
 MonoBehaviour:
   m_ObjectHideFlags: 1

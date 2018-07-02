@@ -116,6 +116,5 @@ public class MovePlayer : MonoBehaviour
             bunnyAnimator.SetBool("Grounded", false);
         }
         //Delete Later
-        Debug.Log("Grounded: " + bunnyAnimator.GetBool("Grounded").ToString() + "IsOnGround: " + isOnGround.ToString());
     }
 }
