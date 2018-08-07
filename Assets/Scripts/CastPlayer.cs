@@ -16,7 +16,10 @@ public class CastPlayer : MonoBehaviour
     private string interactButtonString;
 
     private Transform cubeCollisionTransform;
+
     private Iinteractable interactableInstance;
+    private ICollectable collectableInstance;
+
     private Vector3 center;
     private BoxCollider collider;
     RaycastHit hit;
@@ -67,6 +70,15 @@ public class CastPlayer : MonoBehaviour
         else
         {
             interactText.gameObject.SetActive(false);
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)//this checks for the player getting collectables
+    {
+        collectableInstance = collision.transform.GetComponent<ICollectable>();//sets the collectable item
+        if(collectableInstance != null)
+        {
+            collectableInstance.GetItem();
         }
     }
 }

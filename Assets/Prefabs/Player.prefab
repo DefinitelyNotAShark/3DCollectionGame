@@ -69,7 +69,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1118132432250700
 GameObject:
@@ -89,7 +89,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1149910891104666
 GameObject:
@@ -199,7 +199,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1368392234085264
 GameObject:
@@ -219,7 +219,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1402932101664210
 GameObject:
@@ -235,9 +235,10 @@ GameObject:
   - component: {fileID: 114841886628436298}
   - component: {fileID: 114519192149413106}
   - component: {fileID: 114216669800131024}
+  - component: {fileID: 114777629021712908}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -280,7 +281,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1459317882514986
 GameObject:
@@ -355,7 +356,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1533991688646234
 GameObject:
@@ -415,7 +416,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1671114092358606
 GameObject:
@@ -435,7 +436,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1748709289797524
 GameObject:
@@ -455,7 +456,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1787351342482748
 GameObject:
@@ -495,7 +496,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1872534663936076
 GameObject:
@@ -530,7 +531,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1887676927801338
 GameObject:
@@ -588,7 +589,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!4 &4055831899967266
 Transform:
@@ -610,7 +611,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1402932101664210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 65.725, y: 5.706, z: 37.363487}
+  m_LocalPosition: {x: 78.44658, y: 7.61, z: 46.77202}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4833423459560576}
@@ -1003,7 +1004,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1932538468625102}
   m_LocalRotation: {x: 0.12879558, y: -0, z: -0, w: 0.99167114}
-  m_LocalPosition: {x: -0.11160278, y: 1.9240003, z: -4.25}
+  m_LocalPosition: {x: 0, y: 2.97, z: -5.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4079389614474646}
@@ -10165,6 +10166,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
+--- !u!114 &114777629021712908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402932101664210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e635697970a6934eae23650c92e5c7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114800744475969618
 MonoBehaviour:
   m_ObjectHideFlags: 1
