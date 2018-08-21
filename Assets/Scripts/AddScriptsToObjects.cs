@@ -13,11 +13,10 @@ public class AddScriptsToObjects : MonoBehaviour
     private GameObject treeIconPrefab;
 
     private GameObject treeIconInstance;
-    //DEBUG DONT KEEP
     private int scriptCount;
     private int treeCount;
     // Use this for initialization
-    void Start ()
+    void Awake ()
     {
         trees = new List<GameObject>();
 
@@ -42,8 +41,5 @@ public class AddScriptsToObjects : MonoBehaviour
                 treeIconInstance.transform.parent = tree.gameObject.transform;//treeicon is parented to the object
             }
         }
-
-        Debug.Log("The amount of trees is " + treeCount);
-        Debug.Log("The amount of scripts is " + scriptCount);
     }
 }

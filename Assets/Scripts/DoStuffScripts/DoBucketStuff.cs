@@ -29,4 +29,9 @@ public class DoBucketStuff : MonoBehaviour, Iinteractable
         interactableText.gameObject.SetActive(false);
         interactableText.text = "";
     }
+
+    public bool CanInteract()//only if on bucket quest?
+    {
+        return true;
+    }
 }

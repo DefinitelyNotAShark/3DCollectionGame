@@ -29,7 +29,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1119089228764414
 GameObject:
@@ -49,7 +49,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1144763631484214
 GameObject:
@@ -59,6 +59,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4263613986148854}
+  - component: {fileID: 114501831354275160}
+  - component: {fileID: 114995045383613478}
   m_Layer: 0
   m_Name: BunnyPlayerIdle
   m_TagString: Untagged
@@ -84,7 +86,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1443554103535206
 GameObject:
@@ -104,7 +106,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1536327749006930
 GameObject:
@@ -124,7 +126,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1576766016212562
 GameObject:
@@ -144,7 +146,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1598178556788108
 GameObject:
@@ -164,7 +166,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1657849999191728
 GameObject:
@@ -184,7 +186,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1664399388208496
 GameObject:
@@ -204,7 +206,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1735793431515304
 GameObject:
@@ -224,7 +226,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1780596459203590
 GameObject:
@@ -244,7 +246,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!1 &1786624133321044
 GameObject:
@@ -264,7 +266,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 41
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!4 &4263613986148854
 Transform:
@@ -272,8 +274,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1144763631484214}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.09863901, y: 0.16000019, z: -0.10348846}
+  m_LocalRotation: {x: 0, y: 0.96048826, z: 0, w: 0.2783208}
+  m_LocalPosition: {x: 71.5, y: 6.98, z: 52.737648}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4841674342565298}
@@ -281,7 +283,7 @@ Transform:
   - {fileID: 4470809284767972}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 147.68, z: 0}
 --- !u!4 &4337822448524882
 Transform:
   m_ObjectHideFlags: 1
@@ -1017,7 +1019,7 @@ MeshCollider:
   m_GameObject: {fileID: 1735793431515304}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
@@ -3231,6 +3233,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
+--- !u!114 &114501831354275160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1144763631484214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2d8a7d62a483146bc2d86a30189a60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcText:
+  - Oh. I haven't seen you here before.
+  - Have you come to help?
+  - Since the days grew shorter, it's been getting colder.
+  - It would be really helpful if you could build a fire for us.
+  npcDialogueText: {fileID: 0}
+  dialoguePanel: {fileID: 0}
+  letterPause: 0.05
 --- !u!114 &114550481817157594
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6645,6 +6666,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
+--- !u!114 &114995045383613478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1144763631484214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c02beda072921974596a52a2f7c0bd25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcColor: {r: 1, g: 0.32352942, b: 0.3935092, a: 1}
+  bunnyAvatar: {fileID: 0}
 --- !u!114 &114995890240907288
 MonoBehaviour:
   m_ObjectHideFlags: 1

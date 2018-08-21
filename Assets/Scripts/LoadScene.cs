@@ -28,8 +28,6 @@ public class LoadScene : MonoBehaviour {
         {
             yield return null;
         }
-
-        Debug.Log("Loading is complete");
         yield break;
     }
 	

@@ -219,6 +219,11 @@ Prefab:
       propertyPath: loadingText
       value: 
       objectReference: {fileID: 2048922081}
+    - target: {fileID: 114738614719596402, guid: 109983d73e2838c4ca6ca09232100213,
+        type: 2}
+      propertyPath: sceneToLoad
+      value: Outside
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 109983d73e2838c4ca6ca09232100213, type: 2}
   m_IsPrefabParent: 0

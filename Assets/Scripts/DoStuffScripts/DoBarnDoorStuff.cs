@@ -37,4 +37,9 @@ public class DoBarnDoorStuff : MonoBehaviour, Iinteractable
     {
         throw new System.NotImplementedException();
     }
+
+    public bool CanInteract()//we can change this later to check if key????
+    {
+        return true;
+    }
 }
