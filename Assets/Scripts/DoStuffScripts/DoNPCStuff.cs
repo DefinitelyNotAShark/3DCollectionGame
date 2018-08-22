@@ -9,16 +9,18 @@ public class DoNPCStuff : MonoBehaviour, Iinteractable
     [SerializeField]
     private string[] npcText;
 
-    [SerializeField]
-    private Text npcDialogueText;
+    public Color NpcColor;
 
+
+    //These are things we need to find on awake with tag
     private Text interactText;
-
-    [SerializeField]
     private GameObject dialoguePanel;
+    private Text npcDialogueText;
+    private Text continueIcon;
+    private Image bunnyAvatar;
 
-    [SerializeField]
-    private float letterPause;
+    private float letterPause = .05f;
+
 
     private bool interacted = false;
     private string message;
@@ -30,12 +32,21 @@ public class DoNPCStuff : MonoBehaviour, Iinteractable
     private void Awake()
     {
         interactText = GameObject.FindGameObjectWithTag("Int").GetComponent<Text>();
+        dialoguePanel = GameObject.FindGameObjectWithTag("DialoguePanel");
+        npcDialogueText = GameObject.FindGameObjectWithTag("NPCDialogueText").GetComponent<Text>();
+        continueIcon = GameObject.FindGameObjectWithTag("ContinueIcon").GetComponent<Text>();
+        bunnyAvatar = GameObject.FindGameObjectWithTag("BunnyAvatar").GetComponent<Image>();
     }
 
     private void Start()
     {
+        dialoguePanel.gameObject.SetActive(false);
         dialogueMax = npcText.Length;
-        Debug.Log("The max is " + dialogueIndex.ToString());
+    }
+
+    void SetAvatarColor()
+    {
+        bunnyAvatar.color = NpcColor;//this sets the color of the avatar we see
     }
 
     public bool CanInteract()//can talk to people unless...maybe when u are in kill mode???
@@ -55,12 +66,14 @@ public class DoNPCStuff : MonoBehaviour, Iinteractable
     {
         if (canInteract)
         {
+            SetAvatarColor();//changes avatar color
+
             interacted = true;//this is so u can't just flick through the entirety of the conversation
             GlobalVars.playerCanMove = false;//this holds the player still while they talk to the NPC
             interactText.text = "";//clears text
             interactText.gameObject.SetActive(false);//this takes away the "TALK" prompt
 
-            StartCoroutine(InteractBuffer());//this starts the time between where u can click through text
+            //StartCoroutine(InteractBuffer());//this starts the time between where u can click through text
 
             dialoguePanel.gameObject.SetActive(true);//now we can see the dialogue panel!
 
@@ -73,6 +86,7 @@ public class DoNPCStuff : MonoBehaviour, Iinteractable
 
             else if (dialogueIndex == dialogueMax)//if it's said all it needs to, turn off the panel, and go to the last string
             {
+                StartCoroutine(InteractBuffer());
                 dialoguePanel.SetActive(false);//if u done, it becomes invisible
                 GlobalVars.playerCanMove = true;
                 interacted = false;
@@ -97,12 +111,17 @@ public class DoNPCStuff : MonoBehaviour, Iinteractable
 
     IEnumerator WriteOutText()
     {
+        canInteract = false;//this is so we can't skip through this shit
         npcDialogueText.text = "";//clear text each time before animating new text
+        continueIcon.gameObject.SetActive(false);//we take away the continue icon for the time when it's animating
         foreach (char c in message.ToCharArray())
         {
             npcDialogueText.text += c;//add new letter and then wait and add another one. (then at the end, put the end symbol)
             yield return new WaitForSeconds(letterPause);
         }
+        yield return new WaitForSeconds(letterPause * 4);//lil pause before continue button shows up
+        continueIcon.gameObject.SetActive(true);//then the icon shows up and indicates that it's ok to press buttons now.
+        canInteract = true;
     }
 
 }

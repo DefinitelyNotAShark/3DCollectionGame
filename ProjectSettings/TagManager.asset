@@ -8,6 +8,10 @@ TagManager:
   - Int
   - TreeIcon
   - TreeParent
+  - NPCDialogueText
+  - DialoguePanel
+  - ContinueIcon
+  - BunnyAvatar
   layers:
   - Default
   - TransparentFX

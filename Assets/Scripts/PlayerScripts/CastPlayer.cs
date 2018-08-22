@@ -57,7 +57,6 @@ public class CastPlayer : MonoBehaviour
         {
             
             interactableInstance = hit.collider.gameObject.transform.parent.GetComponent<Iinteractable>();
-            Debug.Log("I'm looking at " + interactableInstance.ToString());
 
             if (interactableInstance != null && interactableInstance.CanInteract())
             {
