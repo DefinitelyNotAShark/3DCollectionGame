@@ -5,5 +5,5 @@ using UnityEngine;
 public class GlobalVars : MonoBehaviour
 {
     public static bool playerCanMove = true;
-	
+    public static bool woodMission = false;
 }

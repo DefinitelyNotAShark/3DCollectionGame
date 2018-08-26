@@ -12,6 +12,9 @@ TagManager:
   - DialoguePanel
   - ContinueIcon
   - BunnyAvatar
+  - QuestionPanel
+  - MissionPanel
+  - WoodUI
   layers:
   - Default
   - TransparentFX

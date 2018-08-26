@@ -9,8 +9,12 @@ public class DoNPCStuff : MonoBehaviour, Iinteractable
     [SerializeField]
     private string[] npcText;
 
-    public Color NpcColor;
+    private enum Mission {none, woodMission, wellMission, barnMission, murderMission}//this is the possible missions the NPC could start
 
+    [SerializeField]
+    private Mission thisNPCMission;
+
+    public Color NpcColor;
 
     //These are things we need to find on awake with tag
     private Text interactText;
@@ -18,9 +22,10 @@ public class DoNPCStuff : MonoBehaviour, Iinteractable
     private Text npcDialogueText;
     private Text continueIcon;
     private Image bunnyAvatar;
+    private MissionPanelUI missionPanelScript;
+    private GameObject woodUI;
 
     private float letterPause = .05f;
-
 
     private bool interacted = false;
     private string message;
@@ -36,6 +41,9 @@ public class DoNPCStuff : MonoBehaviour, Iinteractable
         npcDialogueText = GameObject.FindGameObjectWithTag("NPCDialogueText").GetComponent<Text>();
         continueIcon = GameObject.FindGameObjectWithTag("ContinueIcon").GetComponent<Text>();
         bunnyAvatar = GameObject.FindGameObjectWithTag("BunnyAvatar").GetComponent<Image>();
+        woodUI = GameObject.FindGameObjectWithTag("WoodUI");
+
+        missionPanelScript = GameObject.FindGameObjectWithTag("MissionPanel").GetComponent<MissionPanelUI>();
     }
 
     private void Start()
@@ -91,12 +99,19 @@ public class DoNPCStuff : MonoBehaviour, Iinteractable
                 GlobalVars.playerCanMove = true;
                 interacted = false;
                 dialogueIndex = dialogueMax - 1;//goes back to saying the last thing if u interact with him again
+
+                if (thisNPCMission == Mission.woodMission)//start mission here!
+                {
+                    missionPanelScript.StartMission("Collect 100 Wood!");
+                    woodUI.gameObject.SetActive(true);
+                    GlobalVars.woodMission = true;
+                }
             }
         }
     }
 
     public void StopText()
-    {
+    {       
         interactText.text = "";
         interactText.gameObject.SetActive(false);
         dialoguePanel.gameObject.SetActive(false);
@@ -123,5 +138,4 @@ public class DoNPCStuff : MonoBehaviour, Iinteractable
         continueIcon.gameObject.SetActive(true);//then the icon shows up and indicates that it's ok to press buttons now.
         canInteract = true;
     }
-
 }
