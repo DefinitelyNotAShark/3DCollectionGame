@@ -11,6 +11,7 @@ public class MissionPanelUI : MonoBehaviour
     private RectTransform textLocation;
 
     private bool moveText = false;
+    private FadeScript fadeScript;
 
     // Use this for initialization
     void Start()
@@ -19,6 +20,8 @@ public class MissionPanelUI : MonoBehaviour
         missionText = GetComponentInChildren<Text>();
         textLocation = missionText.gameObject.GetComponent<RectTransform>();
         missionPanel.gameObject.SetActive(false);
+
+        fadeScript = this.gameObject.GetComponent<FadeScript>();
     }
 
     public void StartMission(string missionString)
@@ -34,12 +37,11 @@ public class MissionPanelUI : MonoBehaviour
     {
         if (moveText == true)
         {
-            textLocation.position = new Vector2(textLocation.position.x - 80 * Time.deltaTime, textLocation.position.y);
-            if (textLocation.position.x <= -400)
+            textLocation.position = new Vector2(textLocation.position.x - 120 * Time.deltaTime, textLocation.position.y);
+            if (textLocation.position.x <= -100)
             {
                 moveText = false;
-                //try to animate it to fade;;;
-                missionPanel.gameObject.SetActive(false);
+                fadeScript.FadeOut();
             }
         }
     }

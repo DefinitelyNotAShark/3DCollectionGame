@@ -6,13 +6,13 @@ using UnityEngine.UI;
 
 public class DoNPCStuff : MonoBehaviour, Iinteractable
 {
-    [SerializeField]
-    private string[] npcText;
-
-    private enum Mission {none, woodMission, wellMission, barnMission, murderMission}//this is the possible missions the NPC could start
+    private enum Mission { none, woodMission, wellMission, barnMission, murderMission }//this is the possible missions the NPC could start
 
     [SerializeField]
     private Mission thisNPCMission;
+
+    [SerializeField]
+    private string[] npcText;
 
     public Color NpcColor;
 
@@ -42,7 +42,6 @@ public class DoNPCStuff : MonoBehaviour, Iinteractable
         continueIcon = GameObject.FindGameObjectWithTag("ContinueIcon").GetComponent<Text>();
         bunnyAvatar = GameObject.FindGameObjectWithTag("BunnyAvatar").GetComponent<Image>();
         woodUI = GameObject.FindGameObjectWithTag("WoodUI");
-
         missionPanelScript = GameObject.FindGameObjectWithTag("MissionPanel").GetComponent<MissionPanelUI>();
     }
 
@@ -98,7 +97,7 @@ public class DoNPCStuff : MonoBehaviour, Iinteractable
                 dialoguePanel.SetActive(false);//if u done, it becomes invisible
                 GlobalVars.playerCanMove = true;
                 interacted = false;
-                dialogueIndex = dialogueMax - 1;//goes back to saying the last thing if u interact with him again
+                dialogueIndex = dialogueMax - 1;//goes back to saying the last thing if u interact with him again  
 
                 if (thisNPCMission == Mission.woodMission)//start mission here!
                 {
