@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class DoNPCStuff : MonoBehaviour, Iinteractable
 {
-    private enum Mission { none, woodMission, wellMission, barnMission, murderMission }//this is the possible missions the NPC could start
+    private enum Mission { none, tutorialMission, woodMission, wellMission, barnMission, murderMission }//this is the possible missions the NPC could start
 
     [SerializeField]
     private Mission thisNPCMission;
@@ -64,7 +64,6 @@ public class DoNPCStuff : MonoBehaviour, Iinteractable
     public void HighlightObjectText()
     {
         interactText.gameObject.SetActive(true);
-
         if(interacted == false)
         interactText.text = "Talk";
     }
@@ -104,6 +103,13 @@ public class DoNPCStuff : MonoBehaviour, Iinteractable
                     missionPanelScript.StartMission("Collect 100 Wood!");
                     woodUI.gameObject.SetActive(true);
                     GlobalVars.woodMission = true;
+                }
+
+                if(thisNPCMission == Mission.tutorialMission)
+                {
+                    missionPanelScript.StartMission("Figure out who has the fence key!");
+                    woodUI.gameObject.SetActive(true);
+                    GlobalVars.tutorialMission = true;
                 }
             }
         }

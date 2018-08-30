@@ -43,18 +43,19 @@ MonoBehaviour:
   - pbVertexColorPrefs6
   - pbVertexColorPrefs7
   - pbVertexColorPrefs5
+  - pbCurrentMaterialPalette
   m_Color_keys: []
   m_Material_keys:
   - pbDefaultMaterial
   m_Bool_values: 010001010000
-  m_Int_values: 0000000000000000000000000000000000000000000000000200000002000000
+  m_Int_values: 0000000000000000000000000000000001000000000000000200000002000000
   m_Float_values:
   - 0
-  - 11.5000305
+  - 0
   - 1
   - 0.001
   m_String_values:
-  - RGBA(0.699, 0.665, 0.560, 1.000)
+  - RGBA(0.412, 0.324, 0.167, 1.000)
   - RGBA(0.787, 0.753, 0.642, 1.000)
   - RGBA(0.500, 0.490, 0.467, 1.000)
   - RGBA(0.761, 0.761, 0.761, 1.000)
@@ -63,7 +64,8 @@ MonoBehaviour:
   - RGBA(0.378, 0.625, 0.280, 1.000)
   - RGBA(0.500, 0.368, 0.199, 1.000)
   - RGBA(0.632, 0.462, 0.246, 1.000)
-  - RGBA(1.000, 1.000, 1.000, 1.000)
+  - RGBA(0.603, 0.478, 0.208, 1.000)
+  - Assets/ProCore/ProBuilder/Data/Default Material Palette.asset
   m_Color_values: []
   m_Material_values:
   - {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
