@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+//this script does: Loads a new scene
+//this script goes on: an empty object
+//This script requires: Must be in a loading scene. Needs the scene to load CAN DELETE THE LOADING TEXT!!!
 
 public class LoadScene : MonoBehaviour {
 

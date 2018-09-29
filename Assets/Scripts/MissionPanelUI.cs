@@ -3,6 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+//This script does: Shows a text alert with "NEW MISSION: " at the beginning and animates it from off screen right to left on a panel
+//This script goes on: The panel with the text child
+//This script requires: That it has a text child. Might need to move the numbers in fixed update to fit another size. Works with FadeScript to fade it out once text off screen
+
 
 public class MissionPanelUI : MonoBehaviour
 {

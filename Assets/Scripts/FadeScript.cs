@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+//This script does: fades out an image and sets active false once done
+//This script goes on: any image
+//This script requires: needs to be called from another script
+
 
 public class FadeScript : MonoBehaviour
 {
