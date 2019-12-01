@@ -9,12 +9,6 @@ public class SetNPCColor : MonoBehaviour {
     private Color npcColor;
 
     private MeshRenderer[] renderers;
-    private DoNPCStuff doNPCStuff;
-
-    private void Awake()
-    {
-        gameObject.GetComponent<DoNPCStuff>().NpcColor = npcColor;
-    }
 
     // Use this for initialization
     void Start ()

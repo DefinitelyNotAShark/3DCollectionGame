@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -59,7 +59,7 @@ MonoBehaviour:
   - RGBA(0.787, 0.753, 0.642, 1.000)
   - RGBA(0.500, 0.490, 0.467, 1.000)
   - RGBA(0.761, 0.761, 0.761, 1.000)
-  - RGBA(0.588, 0.588, 0.588, 1.000)
+  - RGBA(0.478, 0.642, 0.191, 1.000)
   - RGBA(0.298, 0.544, 0.220, 1.000)
   - RGBA(0.378, 0.625, 0.280, 1.000)
   - RGBA(0.500, 0.368, 0.199, 1.000)
