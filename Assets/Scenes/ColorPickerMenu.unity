@@ -668,10 +668,10 @@ RectTransform:
   m_Father: {fileID: 1999820253}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000053405696, y: 208.27292}
-  m_SizeDelta: {x: 279, y: 43.8}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -73}
+  m_SizeDelta: {x: 485.6, y: 43.799988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &781683311
 MonoBehaviour:
@@ -698,13 +698,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pick da bunny color
+  m_Text: What color bunny are you?
 --- !u!222 &781683312
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1070,7 +1070,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.7941176, g: 0.5755339, b: 0.10510381, a: 1}
+    m_NormalColor: {r: 0.7921569, g: 0.7375085, b: 0.10588235, a: 1}
     m_HighlightedColor: {r: 0.9117647, g: 0.6989558, b: 0.23464532, a: 1}
     m_PressedColor: {r: 0.66176474, g: 0.48589662, b: 0.10218428, a: 1}
     m_SelectedColor: {r: 0.9117647, g: 0.6989558, b: 0.23464532, a: 1}
@@ -1441,7 +1441,7 @@ GameObject:
   - component: {fileID: 1839832334}
   - component: {fileID: 1839832333}
   m_Layer: 5
-  m_Name: BlackButton
+  m_Name: TealButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1486,10 +1486,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.5, g: 0.5036765, b: 0.5036765, a: 1}
-    m_HighlightedColor: {r: 0.67895764, g: 0.6691177, b: 0.6691177, a: 1}
-    m_PressedColor: {r: 0.38235295, g: 0.38797578, b: 0.38797578, a: 1}
-    m_SelectedColor: {r: 0.67895764, g: 0.6691177, b: 0.6691177, a: 1}
+    m_NormalColor: {r: 0, g: 0.7924528, b: 0.53109986, a: 1}
+    m_HighlightedColor: {r: 0, g: 1, b: 0.66831684, a: 1}
+    m_PressedColor: {r: 0.012237449, g: 0.5188679, b: 0.35082713, a: 1}
+    m_SelectedColor: {r: 0, g: 0.7921569, b: 0.5294118, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1

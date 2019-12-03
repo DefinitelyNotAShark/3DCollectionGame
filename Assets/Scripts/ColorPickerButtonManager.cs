@@ -29,7 +29,7 @@ public class ColorPickerButtonManager : MonoBehaviour {
         whiteColor = new Color32(221, 225, 225, 225);
         yellowColor = new Color32(203, 147, 27, 255);
         orangeColor = new Color32(240, 125, 37, 255);
-        grayColor = new Color32(128, 128, 128, 255);
+        grayColor = new Color32(0, 202, 135, 255);
 
         buttonWasClicked = false;
     }
@@ -71,7 +71,7 @@ public class ColorPickerButtonManager : MonoBehaviour {
 
     public void OnGreyButtonClick()
     {
-        buttonText.text = "This bunny joined the dark side. But it's still adorable.";
+        buttonText.text = "This bunny got bit by a radioactive bug.";
         bunnyPicture.color = grayColor;
         buttonWasClicked = true;
     }
