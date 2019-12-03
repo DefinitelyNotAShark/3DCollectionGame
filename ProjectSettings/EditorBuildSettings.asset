@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestScenes/TestScene.unity
     guid: a8419f5b221fa5f4f971ddf7db87ab2b
   - enabled: 1
     path: Assets/Scenes/ColorPickerMenu.unity
     guid: 5cc6a00067345fa4ea1199380669d760
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestScenes/BunnyColorTestScene.unity
     guid: 1cd508578c988e44bb4fd9226abe3cb5
   - enabled: 1
