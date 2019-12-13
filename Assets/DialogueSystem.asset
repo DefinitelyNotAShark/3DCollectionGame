@@ -327,6 +327,56 @@ MonoBehaviour:
       value: Get all of the bunnies to the campfire
       type: 0
       typeString: 
+  - id: 4
+    fields:
+    - title: Name
+      value: Finish The Ritual
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: Go to the bonfire to start the Ritual
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Success Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Failure Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: State
+      value: unassigned
+      type: 0
+      typeString: CustomFieldType_QuestState
+    - title: Is Item
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Entry Count
+      value: 1
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Entry 1 State
+      value: active
+      type: 0
+      typeString: 
+    - title: Entry 1
+      value: Go to the bonfire
+      type: 0
+      typeString: 
+    - title: Trackable
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Track
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
   locations: []
   variables:
   - id: 1
@@ -381,6 +431,48 @@ MonoBehaviour:
       value: 0
       type: 1
       typeString: CustomFieldType_Number
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 5
+    fields:
+    - title: Name
+      value: GregorInPlace
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 6
+    fields:
+    - title: Name
+      value: BerthaInPlace
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 7
+    fields:
+    - title: Name
+      value: FrankInPlace
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
     - title: Description
       value: 
       type: 0
@@ -1202,8 +1294,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Help me start the bonfire. I need at least 10 wood to get a good blaze
-          going.
+        value: Help me chop some trees for wood. I need at least 10 wood to get a
+          good blaze going.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1243,8 +1335,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 191.08237
-        y: 1155.9562
+        x: 187.1376
+        y: 1153.9838
         width: 160
         height: 30
     - id: 20
@@ -1274,7 +1366,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Here, take ol reliable with you.
+        value: Here, take this axe. [em1] (you got an axe) [/em1]
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1406,7 +1498,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: Yep
+        value: Yep (give logs)
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
@@ -1440,7 +1532,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 22
         destinationConversationID: 1
-        destinationDialogueID: 24
+        destinationDialogueID: 25
         isConnector: 0
         priority: 2
       conditionsString: ' Variable["Wood"] >= 10 and (CurrentQuestState("Chop Wood")
@@ -1526,77 +1618,6 @@ MonoBehaviour:
         y: 932.5513
         width: 160
         height: 30
-    - id: 24
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: Good good. He will be pleased.
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 24
-        destinationConversationID: 1
-        destinationDialogueID: 27
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 22.470558
-        y: 254.73712
-        width: 160
-        height: 30
     - id: 25
       fields:
       - title: Title
@@ -1664,8 +1685,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 22.470558
-        y: 381.76294
+        x: 20.498169
+        y: 255.53018
         width: 160
         height: 30
     - id: 26
@@ -1735,79 +1756,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 22.470558
-        y: 435.34552
-        width: 160
-        height: 30
-    - id: 27
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: (Give logs)
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 27
-        destinationConversationID: 1
-        destinationDialogueID: 25
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 22.470558
-        y: 313.6936
+        x: 20.498177
+        y: 318.9747
         width: 160
         height: 30
     - id: 28
@@ -1877,8 +1827,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 22.470558
-        y: 485.34558
+        x: 30.360107
+        y: 414.3397
         width: 160
         height: 30
     - id: 29
@@ -2608,7 +2558,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Here's a lighter.
+        value: Here's a lighter. [em1] (you got a lighter) [/em1]
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2648,8 +2598,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 22.470558
-        y: 533.02
+        x: 36.27726
+        y: 473.84845
         width: 160
         height: 30
     - id: 40
@@ -3067,7 +3017,9 @@ MonoBehaviour:
         destinationDialogueID: 47
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestState("Recruit Bunnies") == "active"
+      conditionsString: "CurrentQuestState(\"Recruit Bunnies\") == \"active\" or\n
+        (CurrentQuestState(\"Recruit Bunnies\") == \"success\") and (CurrentQuestState(\"Finish
+        The Ritual\") == \"unassigned\")"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -3203,8 +3155,7 @@ MonoBehaviour:
         destinationDialogueID: 48
         isConnector: 0
         priority: 2
-      conditionsString: Variable["NumberOfBunnies"] == 3 or (CurrentQuestState("Recruit
-        Bunnies") == "success")
+      conditionsString: (CurrentQuestState("Recruit Bunnies") == "success")
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -3341,7 +3292,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: 'SetQuestState("Finish The Ritual", "active");
+
+        SetQuestEntryState("Finish The Ritual", 1, "active")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -3351,7 +3304,7 @@ MonoBehaviour:
         y: 209.53961
         width: 160
         height: 30
-    canvasScrollPosition: {x: 7.8895874, y: 0}
+    canvasScrollPosition: {x: 339.25046, y: 0}
     canvasZoom: 0.5070001
   - id: 2
     fields:
@@ -3538,7 +3491,8 @@ MonoBehaviour:
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestState("Recruit Bunnies") == "active"
+      conditionsString: CurrentQuestState("Recruit Bunnies") == "active" and (Variable["TiffanyInPlace"]
+        == false)
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -4186,7 +4140,8 @@ MonoBehaviour:
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestState("Recruit Bunnies") == "active"
+      conditionsString: CurrentQuestState("Recruit Bunnies") == "active" and (Variable["FrankInPlace"]
+        == false)
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -4325,7 +4280,7 @@ MonoBehaviour:
       conditionsString: 
       userScript: 'Variable["TiffanyCanMove"] = true;
 
-        Variable["TiffanyInPlace"] = true;
+        Variable["FrankInPlace"] = true;
 
         Variable["NumberOfBunnies"] = Variable["NumberOfBunnies"] + 1'
       onExecute:
@@ -4391,7 +4346,7 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks: []
-      conditionsString: Variable["TiffanyInPlace"] == true
+      conditionsString: Variable["FrankInPlace"] == true
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -4938,7 +4893,8 @@ MonoBehaviour:
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestState("Recruit Bunnies") == "active"
+      conditionsString: CurrentQuestState("Recruit Bunnies") == "active" and (Variable["BerthaInPlace"]
+        == false)
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -5077,7 +5033,7 @@ MonoBehaviour:
       conditionsString: 
       userScript: 'Variable["TiffanyCanMove"] = true;
 
-        Variable["TiffanyInPlace"] = true;
+        Variable["BerthaInPlace"] = true;
 
         Variable["NumberOfBunnies"] = Variable["NumberOfBunnies"] + 1'
       onExecute:
@@ -5143,7 +5099,7 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks: []
-      conditionsString: Variable["TiffanyInPlace"] == true
+      conditionsString: Variable["BerthaInPlace"] == true
       userScript: 
       onExecute:
         m_PersistentCalls:

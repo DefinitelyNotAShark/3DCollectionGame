@@ -14,9 +14,9 @@ public class disableUsable : MonoBehaviour
     
     public void Disable()
     {
-            fire.Play();
-
         if (logs.gameObject.activeSelf == false)
             logs.gameObject.SetActive(true);
+
+        fire.Play();
     }
 }
