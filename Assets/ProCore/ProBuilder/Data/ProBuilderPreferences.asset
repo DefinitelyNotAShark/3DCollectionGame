@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -55,13 +56,13 @@ MonoBehaviour:
   - 1
   - 0.001
   m_String_values:
-  - RGBA(0.412, 0.324, 0.167, 1.000)
-  - RGBA(0.787, 0.753, 0.642, 1.000)
-  - RGBA(0.500, 0.490, 0.467, 1.000)
-  - RGBA(0.761, 0.761, 0.761, 1.000)
-  - RGBA(0.478, 0.642, 0.191, 1.000)
+  - RGBA(0.255, 0.109, 0.001, 1.000)
+  - RGBA(0.226, 0.114, 0.000, 1.000)
+  - RGBA(0.259, 0.566, 0.099, 1.000)
+  - RGBA(0.334, 0.406, 0.258, 1.000)
+  - RGBA(0.011, 0.453, 0.054, 1.000)
   - RGBA(0.298, 0.544, 0.220, 1.000)
-  - RGBA(0.378, 0.625, 0.280, 1.000)
+  - RGBA(0.560, 0.613, 0.055, 1.000)
   - RGBA(0.500, 0.368, 0.199, 1.000)
   - RGBA(0.632, 0.462, 0.246, 1.000)
   - RGBA(0.603, 0.478, 0.208, 1.000)
