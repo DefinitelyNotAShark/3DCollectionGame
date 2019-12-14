@@ -26,19 +26,25 @@ Interactables:
 1.	Other bunnies (talk)
 2.	Trees(chop wood)
 3.	Campfire spot(build fire)
+
 Quest 1) Collect wood – Chop down trees to collect wood (need 10 wood)
 This quest is the introduction to interaction and shows how the player can interact with the world and other NPCs. It also establishes a tone for the game. It should be very easy to accomplish.
+
 •	Trees will give the option to be cut down if the player gets within proximity
 •	Cutting down a tree will yield 1 wood
 o	Interact button to cut tree
 •	Cut down 10 trees to fulfill the quest
+
 Quest2) Build fire-Find a place to build a fire and use your wood to start a fire
 •	Find the area clearly meant to start a fire at (ring of stones)
 •	Press interact button to place wood and build the fire
 o	Fire will be a particle system
+
 Quest3) Collect bunnies to sit-Find each bunny and have them sit by the fire
 •	Find each bunny and let them know that there is a fire and that they must sit
 •	They will go to the spot on their own
-End of the game: Campfire Ritual
-There is an end cutscene that shows the summoning of the Great Old One where he proceeds to destroy the world. For this, I wanted to move the camera, but I only got as far as switching angles statically.
 
+
+End of the game: Campfire Ritual
+
+There is an end cutscene that shows the summoning of the Great Old One where he proceeds to destroy the world. For this, I wanted to move the camera, but I only got as far as switching angles statically.
